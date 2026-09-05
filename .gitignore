@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Large raw downloads — keep sample data small in git; don't commit
+# multi-thousand-row EPA exports if they get large. Adjust as needed.
+# data/raw/*.csv
+
+# Tableau temp files
+*.twbx.lock
